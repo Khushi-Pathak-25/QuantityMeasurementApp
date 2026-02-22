@@ -68,6 +68,14 @@ Refactors unit-specific classes into a unified `Length` abstraction using a `Len
 
 ---
 
+### 🧩 **UC5 – Unit-to-Unit Conversion :**
+
+**Features:**
+- Introduces explicit conversion operations between supported length units using centralized enum conversion factors.
+- Extends the `Length` API to convert measurements across units while preserving mathematical equivalence and precision.
+
+---
+
 ## 🧰 Tech Stack
 
 - **Java 17+** — Core language and application development  
