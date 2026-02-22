@@ -2,12 +2,17 @@ package com.apps.quantitymeasurementapp;
 
 import org.junit.jupiter.api.Test;
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.apps.quantitymeasurement.QuantityMeasurementApp.Feet;
 
+import com.apps.quantitymeasurement.QuantityMeasurementApp.Inches;
+
 
 public class QuantityMeasurementAppTest {
+	
+	// Feet tests
 	
 	@Test
 	public void testFeetEquality_SameValue() {
@@ -44,4 +49,39 @@ public class QuantityMeasurementAppTest {
 		Feet feet1 = new Feet(1.0);
 		assertTrue(feet1.equals(feet1), "Feet object should be equal to itself (reflexive property)");
 	}
+	
+	// Inches test
+	
+	@Test
+	public void testInchesEquality_SameValue() {
+		Inches i1 = new Inches(1.0);
+		Inches i2 = new Inches(1.0);
+		assertTrue(i1.equals(i2), "Inches objects with same value should be equal");
+	}
+	
+	@Test
+	public void testInchesEquality_DifferentValue() {
+		Inches i1 = new Inches(1.0);
+		Inches i2 = new Inches(2.0);
+		assertFalse(i1.equals(i2), "Inches objects with different values should not be equal");
+	}
+	
+	@Test
+	public void testInchesEquality_NullComparison() {
+	    Inches inches = new Inches(5);
+	    assertFalse(inches.equals(null));
+	}
+	@Test
+	public void testInchesEquality_DifferentClass() {
+		Inches i1 = new Inches(1.0);
+		String notInches = "1.0";
+		assertFalse(i1.equals(notInches), "Inches object should not be equal to a different class");
+	}
+	
+	@Test
+	public void testInchesEquality_SameReference() {
+		Inches i1 = new Inches(1.0);
+		assertTrue(i1.equals(i1), "Inches object should be equal to itself (reflexive property)");
+	}
+	
 }
