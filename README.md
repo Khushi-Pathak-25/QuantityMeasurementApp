@@ -100,7 +100,7 @@ QuantityMeasurementApp
 │   │   └── java
 │   │       └── com
 │   │           └── apps
-│   │               └── quantitymeasurementapp
+│   │               └── quantitymeasurement
 │   │                   ├── QuantityMeasurementApp.java
 │   │                   └── Length.java
 │   │
