@@ -1,28 +1,27 @@
 # 📏 QuantityMeasurementApp
 
 > A Java application developed using **Test-Driven Development (TDD)** to incrementally design and refine a quantity measurement system.  
-> The project emphasizes clean object-oriented design, value-based equality, and continuous refactoring.
+> The project emphasizes clean object-oriented design, value-based equality, and continuous refactoring to build a flexible and maintainable domain model.
 
 ---
 
 ## 📖 Overview
 
 **QuantityMeasurementApp** is a modular Java project structured around incremental Use Cases.  
-Each Use Case enhances the domain model while preserving behavior through comprehensive unit testing.
+Each Use Case enhances the domain model while preserving behaviour through comprehensive unit testing.
 
-The current implementation establishes **value-based equality** for measurement units, starting with Feet.
+The system progressively evolves toward a scalable and extensible quantity measurement model.
 
 ---
 
-## ✅ Implemented Use Case
+## ✅ Implemented Use Cases
 
-### 🔹 UC1 – Feet Equality
+### 🧩 UC1 – Feet Equality
 
-This use case introduces value-based comparison for Feet measurements.
+Introduces value-based comparison for `Feet` measurements.
 
-### ✔ Features Implemented
-
-- Creation of a `Feet` measurement object
+**Features:**
+- Creation of a `Feet` class
 - Overriding the `equals()` method
 - Validation of:
   - Same values are equal
@@ -34,11 +33,24 @@ This use case introduces value-based comparison for Feet measurements.
 
 ---
 
+### 🧩 UC2 – Inches Equality
+
+Extends value-based equality comparison to `Inches` measurements.
+
+**Features:**
+- Creation of an independent `Inches` class
+- Overriding the `equals()` method
+- Ensures consistent equality behaviour
+- Maintains independent unit validation
+- Covered with dedicated unit test cases
+
+---
+
 ## 🧰 Tech Stack
 
-- **Java 17+**
-- **Maven**
-- **JUnit 5**
+- **Java 17+** — Core language and application development  
+- **Maven** — Build automation and dependency management  
+- **JUnit 5** — Unit testing framework supporting TDD workflow  
 
 ---
 
@@ -75,7 +87,8 @@ QuantityMeasurementApp
 │   │       └── com
 │   │           └── apps
 │   │               └── quantitymeasurement
-│   │                   └── QuantityMeasurementApp.java
+│   │                   ├── Feet.java
+│   │                   └── Inches.java
 │   │
 │   └── test
 │       └── java
