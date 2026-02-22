@@ -43,6 +43,20 @@ Extends value-based equality comparison to `Inches` measurements.
 - Ensures consistent equality behaviour
 - Maintains independent unit validation
 - Covered with dedicated unit test cases
+  
+---
+
+### 🧩 UC3 – Generic Length
+
+Refactors unit-specific classes into a unified `Length` abstraction using a `LengthUnit` enum.
+
+**Features:**
+- Introduction of a generalized `Length` class
+- Implementation of `LengthUnit` enum (e.g., FEET, INCHES)
+- Elimination of duplicated logic (DRY principle)
+- Enables cross-unit equality comparison
+- Cleaner and extensible domain design
+- Fully validated with unit tests
 
 ---
 
@@ -86,15 +100,15 @@ QuantityMeasurementApp
 │   │   └── java
 │   │       └── com
 │   │           └── apps
-│   │               └── quantitymeasurement
-│   │                   ├── Feet.java
-│   │                   └── Inches.java
+│   │               └── quantitymeasurementapp
+│   │                   ├── QuantityMeasurementApp.java
+│   │                   └── Length.java
 │   │
 │   └── test
 │       └── java
 │           └── com
 │               └── apps
-│                   └── quantitymeasurement
+│                   └── quantitymeasurementapp
 │                       └── QuantityMeasurementAppTest.java
 │
 ├── pom.xml
