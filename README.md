@@ -57,6 +57,14 @@ Refactors unit-specific classes into a unified `Length` abstraction using a `Len
 - Enables cross-unit equality comparison
 - Cleaner and extensible domain design
 - Fully validated with unit tests
+  
+---
+
+### 🧩 **UC4 – Extended Unit Support :**
+
+**Features:**
+- Adds Yards and Centimeters to the `LengthUnit` enum with appropriate conversion factors.
+- Demonstrates scalability of the generic design by enabling seamless cross-unit equality without introducing new classes.
 
 ---
 
@@ -100,7 +108,7 @@ QuantityMeasurementApp
 │   │   └── java
 │   │       └── com
 │   │           └── apps
-│   │               └── quantitymeasurementapp
+│   │               └── quantitymeasurement
 │   │                   ├── QuantityMeasurementApp.java
 │   │                   └── Length.java
 │   │
