@@ -124,6 +124,21 @@ Refactors the measurement system by extracting `LengthUnit` into a standalone en
 
 ---
 
+### 🧩 UC9 – Weight Measurement Support
+
+Introduces a new measurement category for weight by implementing a dedicated Weight class and WeightUnit enum. This extends the system beyond length measurements while preserving architectural stability and strict domain separation.
+
+**Features:**
+
+- Introduces a separate Weight class for weight measurements
+- Implements a WeightUnit enum supporting:
+  - Kilograms (kg)
+  - Grams (g)
+  - Pounds (lb)
+- Enables equality comparison across different weight units using base-unit normalization
+
+---
+
 ## 🧰 Tech Stack
 
 - **Java 17+** — Core language and application development  
@@ -167,7 +182,10 @@ QuantityMeasurementApp
 │   │               └── quantitymeasurement
 │   │                   ├── QuantityMeasurementApp.java
 │   │                   ├── Length.java
-│   │                   └── LengthUnit.java   <- (New standalone enum)
+│   │                   ├── LengthUnit.java
+│   │                   ├── Weight.java
+│   │                   └── WeightUnit.java
+│   │
 │   └── test
 │       └── java
 │           └── com
