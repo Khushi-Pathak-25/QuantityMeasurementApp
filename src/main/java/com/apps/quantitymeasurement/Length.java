@@ -164,4 +164,5 @@ public class Length {
 		result = new Length(5.0, LengthUnit.FEET).add(new Length(-2.0, LengthUnit.FEET), LengthUnit.INCHES);
 		System.out.println("Add (5.0 FEET, -2.0 FEET, INCHES) = " + result);
 	}
+	
 }
