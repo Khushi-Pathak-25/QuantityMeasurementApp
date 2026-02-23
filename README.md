@@ -103,6 +103,27 @@ Enhances the addition operation by allowing the result to be returned in a **spe
 
 ---
 
+### 🧩 UC8 – Standalone Unit Refactor
+
+Refactors the measurement system by extracting `LengthUnit` into a standalone enum and assigning it full responsibility for unit conversion logic, improving architectural clarity and scalability.
+
+**Features:**
+
+- Extracts `LengthUnit` into a separate file
+- Delegates conversion responsibility to the unit itself:
+  ```java
+  public double toBaseUnit(double value)
+  public double fromBaseUnit(double baseValue)
+  Removes conversion logic from the Length class
+- Improves separation of concerns (Single Responsibility Principle)
+- Reduces coupling between value and unit
+- Maintains internal base-unit normalization (inches) for mathematical consistency
+- Ensures precision using controlled rounding
+- Fully backward compatible with UC1–UC7 behavior
+- All existing JUnit test cases pass successfully
+
+---
+
 ## 🧰 Tech Stack
 
 - **Java 17+** — Core language and application development  
@@ -145,8 +166,8 @@ QuantityMeasurementApp
 │   │           └── apps
 │   │               └── quantitymeasurement
 │   │                   ├── QuantityMeasurementApp.java
-│   │                   └── Length.java
-│   │
+│   │                   ├── Length.java
+│   │                   └── LengthUnit.java   <- (New standalone enum)
 │   └── test
 │       └── java
 │           └── com
