@@ -84,6 +84,25 @@ Refactors unit-specific classes into a unified `Length` abstraction using a `Len
 
 ---
 
+### 🧩 UC7 – Addition with Target Unit Specification
+
+Enhances the addition operation by allowing the result to be returned in a **specified target unit**, increasing flexibility and usability.
+
+**Features:**
+- Introduces overloaded method:
+  ```java
+  add(Length that, LengthUnit targetUnit)
+- Allows result in any supported unit (Feet, Inches, Yards, Centimeters)
+- Maintains internal base-unit normalization for mathematical correctness
+- Ensures precision using controlled rounding
+- Validates:
+   - Null operand
+   - Null target unit
+- Fully covered with JUnit test cases
+- Backward compatible with UC6 behavior
+
+---
+
 ## 🧰 Tech Stack
 
 - **Java 17+** — Core language and application development  
