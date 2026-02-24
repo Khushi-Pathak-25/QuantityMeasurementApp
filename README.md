@@ -171,6 +171,17 @@ Introduces a new measurement category for weight by implementing a dedicated Wei
 
 ---
 
+### 🧩 UC14 – Temperature Measurement (Selective Arithmetic Support)
+
+**Features:**
+- Introduces temperature measurements using `TemperatureUnit` integrated into the generic `Quantity<U>` architecture.
+- Supports equality comparison and unit conversion across Celsius, Fahrenheit, and Kelvin using non-linear conversion formulas.
+- Refactors `IMeasurable` with default capability validation to allow category-specific operation support.
+- Prevents unsupported arithmetic operations (addition, subtraction, division) through explicit validation and meaningful exceptions.
+- Demonstrates Interface Segregation and capability-based design while preserving backward compatibility for length, weight, and volume.
+
+---
+
 🧰 Tech Stack
 
 ## 🧰 Tech Stack
@@ -219,6 +230,8 @@ QuantityMeasurementApp
 │   │                   ├── LengthUnit.java
 │   │                   ├── WeightUnit.java
 |   |                   ├── VolumeUnit.java
+|   |                   ├── TemperatureUnit.java
+|   |                   ├── SupportsArithmetic.java
 │   │                   └── QuantityMeasurementApp.java
 │   │
 │   └── test
@@ -234,6 +247,7 @@ QuantityMeasurementApp
 |                       ├── QuantityArithmeticTest.java
 │                       ├── QuantityConversionTest.java
 │                       ├── QuantityEqualityTest.java
+|                       ├── TemperatureQuantityTest.java
 │                       |── WeightQuantityTest.java
 |                       └── VolumeQuantityTest.java
 │
