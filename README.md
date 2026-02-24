@@ -163,6 +163,14 @@ Introduces a new measurement category for weight by implementing a dedicated Wei
 
 ---
 
+### 🧩 UC13 – Centralized Arithmetic Logic (DRY Refactor)
+
+**Features:**
+- Refactors addition, subtraction, and division to use a centralized arithmetic helper, eliminating duplicated validation and conversion logic.
+- Improves maintainability and scalability while preserving all existing behaviour and public APIs.
+
+---
+
 🧰 Tech Stack
 
 ## 🧰 Tech Stack
@@ -220,6 +228,7 @@ QuantityMeasurementApp
 │                   └── quantitymeasurementapp
 │                       ├── ArchitecturalTest.java
 │                       ├── BackwardCompatibilityTest.java
+|                       ├── CentralizedArithmeticLogicTest.java
 │                       ├── ConceptualValidationTest.java
 │                       ├── QuantityAdditionTest.java
 |                       ├── QuantityArithmeticTest.java
