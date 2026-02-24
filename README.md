@@ -155,6 +155,14 @@ Introduces a new measurement category for weight by implementing a dedicated Wei
 
 ---
 
+### 🧩 UC12 – Subtraction and Division Operations 
+
+**Features:**
+- Introduces subtraction between quantities with automatic cross-unit normalization while preserving immutability.
+- Adds division support producing a dimensionless ratio, enabling comparative analysis across measurements of the same category.
+
+---
+
 🧰 Tech Stack
 
 ## 🧰 Tech Stack
@@ -214,6 +222,7 @@ QuantityMeasurementApp
 │                       ├── BackwardCompatibilityTest.java
 │                       ├── ConceptualValidationTest.java
 │                       ├── QuantityAdditionTest.java
+|                       ├── QuantityArithmeticTest.java
 │                       ├── QuantityConversionTest.java
 │                       ├── QuantityEqualityTest.java
 │                       |── WeightQuantityTest.java
