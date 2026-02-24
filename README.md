@@ -147,6 +147,14 @@ Introduces a new measurement category for weight by implementing a dedicated Wei
 
 ---
 
+### 🧩 UC11 – Volume Measurement Support 
+
+**Features:**
+- Adds a new measurement category using `VolumeUnit` (Litre, Millilitre, Gallon) implemented through the generic `Quantity<U>` architecture.
+- Validates that new measurement types integrate without modifying existing quantity logic, proving true multi-category scalability.
+
+---
+
 🧰 Tech Stack
 
 ## 🧰 Tech Stack
@@ -194,6 +202,7 @@ QuantityMeasurementApp
 │   │                   ├── Quantity.java
 │   │                   ├── LengthUnit.java
 │   │                   ├── WeightUnit.java
+|   |                   ├── VolumeUnit.java
 │   │                   └── QuantityMeasurementApp.java
 │   │
 │   └── test
@@ -207,7 +216,8 @@ QuantityMeasurementApp
 │                       ├── QuantityAdditionTest.java
 │                       ├── QuantityConversionTest.java
 │                       ├── QuantityEqualityTest.java
-│                       └── WeightQuantityTest.java
+│                       |── WeightQuantityTest.java
+|                       └── VolumeQuantityTest.java
 │
 ├── pom.xml
 └── README.md
