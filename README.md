@@ -139,6 +139,16 @@ Introduces a new measurement category for weight by implementing a dedicated Wei
 
 ---
 
+### 🧩 UC10 – Generic Quantity Architecture
+
+**Features:**
+- Introduces a generic `Quantity<U extends IMeasurable>` model enabling multiple measurement categories through a shared abstraction.
+- Eliminates category-specific duplication by unifying equality, conversion, and addition logic into a single scalable architecture.
+
+---
+
+🧰 Tech Stack
+
 ## 🧰 Tech Stack
 
 - **Java 17+** — Core language and application development  
@@ -180,18 +190,24 @@ QuantityMeasurementApp
 │   │       └── com
 │   │           └── apps
 │   │               └── quantitymeasurement
-│   │                   ├── QuantityMeasurementApp.java
-│   │                   ├── Length.java
+│   │                   ├── IMeasurable.java
+│   │                   ├── Quantity.java
 │   │                   ├── LengthUnit.java
-│   │                   ├── Weight.java
-│   │                   └── WeightUnit.java
+│   │                   ├── WeightUnit.java
+│   │                   └── QuantityMeasurementApp.java
 │   │
 │   └── test
 │       └── java
 │           └── com
 │               └── apps
 │                   └── quantitymeasurementapp
-│                       └── QuantityMeasurementAppTest.java
+│                       ├── ArchitecturalTest.java
+│                       ├── BackwardCompatibilityTest.java
+│                       ├── ConceptualValidationTest.java
+│                       ├── QuantityAdditionTest.java
+│                       ├── QuantityConversionTest.java
+│                       ├── QuantityEqualityTest.java
+│                       └── WeightQuantityTest.java
 │
 ├── pom.xml
 └── README.md
