@@ -50,10 +50,6 @@ import com.app.quantitymeasurement.security.oauth2.CustomOAuth2UserService;
  * the internal {@code processOAuth2User()} directly via the protected helper exposed
  * by {@link TestableOAuth2UserService}. The {@link UserRepository} is mocked so no
  * database is required.</p>
- *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @ExtendWith(MockitoExtension.class)
 class CustomOAuth2UserServiceTest {

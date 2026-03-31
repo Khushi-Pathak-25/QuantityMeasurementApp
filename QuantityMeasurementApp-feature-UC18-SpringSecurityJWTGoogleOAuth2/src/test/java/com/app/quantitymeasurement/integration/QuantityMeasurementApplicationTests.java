@@ -53,9 +53,6 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * Test class name matches the Spring Initializr convention for integration tests.
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 17.0
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")

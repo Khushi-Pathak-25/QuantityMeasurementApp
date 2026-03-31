@@ -16,9 +16,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * Covers: directional conversions, round-trips, same-unit, zero/negative
  * values, null guard, and NaN/Infinity construction guard.
  *  
- *  *
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityConversionTest {
 

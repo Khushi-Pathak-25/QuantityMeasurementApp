@@ -48,9 +48,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * password used throughout this file — it satisfies every constraint added in
  * UC19 (uppercase, special character, digit, ≥ 8 characters).</p>
  *
- * @author UC19
- * @version 19.0
- * @since 18.0
  */
 @SpringBootTest
 @AutoConfigureMockMvc

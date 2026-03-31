@@ -47,9 +47,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * addition (2+3 args), subtraction, division, all-ops pass, data flow,
  * backward compatibility, validation, GET endpoints, Mockito.verify.
  * 
- * @author Abhishek Puri Goswami
- * UC18: All tests run as @WithMockUser since endpoints now require authentication.
- * @version 18.0
  */
 @WebMvcTest(QuantityMeasurementController.class)
 @Import(SecurityConfig.class)

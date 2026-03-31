@@ -15,9 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - toString produces the expected format
  * - Inner unit enums expose correct names and measurement types
  * - IMeasurableUnit contract is satisfied by all inner enums
- * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityDTOTest {
 

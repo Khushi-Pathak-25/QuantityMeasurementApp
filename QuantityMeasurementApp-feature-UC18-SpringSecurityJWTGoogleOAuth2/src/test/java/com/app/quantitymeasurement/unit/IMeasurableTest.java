@@ -12,9 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - convertToBaseUnit(1.0) matches the expected conversion factor
  * - convertToBaseUnit / convertFromBaseUnit are inverses
  * - SupportsArithmetic is implemented by Length, Weight, Volume but NOT Temperature
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class IMeasurableTest {
 

@@ -63,9 +63,6 @@ import com.app.quantitymeasurement.security.jwt.JwtTokenProvider;
  *       password hashing, email dispatch.</li>
  * </ul>
  *
- * @author UC19
- * @version 19.0
- * @since 19.0
  */
 @ExtendWith(MockitoExtension.class)
 class AuthenticationServiceTest {

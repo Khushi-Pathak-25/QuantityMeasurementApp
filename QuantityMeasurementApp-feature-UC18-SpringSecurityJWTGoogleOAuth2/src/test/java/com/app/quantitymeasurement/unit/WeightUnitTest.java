@@ -13,8 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * Base unit for weight is KILOGRAM.
  * Conversion factor for each unit equals convertToBaseUnit(1.0).
  * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class WeightUnitTest {
 

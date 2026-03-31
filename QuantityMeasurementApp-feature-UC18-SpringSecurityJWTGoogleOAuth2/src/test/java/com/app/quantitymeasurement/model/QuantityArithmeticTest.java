@@ -23,8 +23,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * null/cross-category guards, temperature rejection, internal helper
  * visibility, ArithmeticOperation enum dispatch, and edge values.
  * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityArithmeticTest {
 

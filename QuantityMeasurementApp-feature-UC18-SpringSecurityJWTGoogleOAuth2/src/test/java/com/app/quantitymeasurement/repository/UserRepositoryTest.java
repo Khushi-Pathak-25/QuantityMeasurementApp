@@ -23,10 +23,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * <p>Covers {@link com.app.quantitymeasurement.enums.AuthProvider#LOCAL},
  * {@link com.app.quantitymeasurement.enums.AuthProvider#GOOGLE}, and
  * {@link com.app.quantitymeasurement.enums.AuthProvider#GITHUB} provider paths.</p>
- *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @DataJpaTest
 @ActiveProfiles("test")

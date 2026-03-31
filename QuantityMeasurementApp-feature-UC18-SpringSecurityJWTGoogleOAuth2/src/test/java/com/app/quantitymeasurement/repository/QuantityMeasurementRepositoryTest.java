@@ -29,10 +29,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - countByOperationAndErrorFalse() counts correctly
  * - findByErrorTrue() returns only error records
  * - Standard JPA save and findAll work correctly
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @DataJpaTest
 @ActiveProfiles("test")

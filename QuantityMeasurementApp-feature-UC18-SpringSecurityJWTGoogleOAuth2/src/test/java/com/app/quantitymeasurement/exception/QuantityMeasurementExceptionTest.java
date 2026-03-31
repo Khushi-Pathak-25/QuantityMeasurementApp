@@ -13,9 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - Message + cause constructor stores both
  * - Can be thrown and caught normally
  * - Cause is accessible via getCause()
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityMeasurementExceptionTest {
 

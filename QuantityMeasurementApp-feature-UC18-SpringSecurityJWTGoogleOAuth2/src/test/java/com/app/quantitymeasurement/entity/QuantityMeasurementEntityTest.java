@@ -22,9 +22,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - Null operand guard in base constructor
  * - Serializable contract
  *
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityMeasurementEntityTest {
 

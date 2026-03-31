@@ -17,8 +17,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * Covers: same-unit, cross-unit, cross-category, edge values,
  * null/NaN/Infinity guards, reflexive, symmetric, and transitive properties.
  * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityEqualityTest {
 

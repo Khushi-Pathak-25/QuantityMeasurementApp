@@ -37,10 +37,6 @@ import static org.mockito.Mockito.*;
  * send method is transparent to Mockito-based unit tests.  The methods execute
  * synchronously here, which is the correct behaviour for unit tests — we want
  * deterministic verification, not background thread scheduling.</p>
- *
- * @author UC19
- * @version 19.0
- * @since 19.0
  */
 @ExtendWith(MockitoExtension.class)
 class EmailServiceTest {

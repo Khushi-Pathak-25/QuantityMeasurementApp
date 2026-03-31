@@ -16,8 +16,6 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * Base unit for temperature is CELSIUS.
  * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class TemperatureUnitTest {
 

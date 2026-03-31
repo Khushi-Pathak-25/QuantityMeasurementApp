@@ -15,9 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * default field values, the {@link User#prePersist()} lifecycle callback,
  * and the custom {@link User#toString()} that excludes the password hash.
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 class UserTest {
 

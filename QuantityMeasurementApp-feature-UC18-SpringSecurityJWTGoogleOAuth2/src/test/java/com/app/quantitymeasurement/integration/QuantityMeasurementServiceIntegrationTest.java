@@ -44,8 +44,6 @@ import com.app.quantitymeasurement.service.QuantityMeasurementServiceImpl;
  * - Repository tracking: every operation is saved
  * - Scalability: existing ops produce same results after full suite run
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)

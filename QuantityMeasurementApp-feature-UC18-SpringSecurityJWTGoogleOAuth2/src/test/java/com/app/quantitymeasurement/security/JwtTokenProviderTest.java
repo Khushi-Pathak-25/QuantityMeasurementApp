@@ -25,9 +25,6 @@ import com.app.quantitymeasurement.security.jwt.JwtTokenProvider;
  * and validation. Runs with the full Spring context so that {@code @Value}
  * properties are injected from {@code src/test/resources/application.properties}.
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @SpringBootTest
 @ActiveProfiles("test")

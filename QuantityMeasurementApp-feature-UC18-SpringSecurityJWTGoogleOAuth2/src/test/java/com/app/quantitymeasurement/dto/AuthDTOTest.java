@@ -41,9 +41,6 @@ import jakarta.validation.ValidatorFactory;
  * digit 1/2/3, 9 characters).  Tests that exercise a specific failure use a
  * deliberate bad value and a comment explaining what rule it violates.</p>
  *
- * @author UC19
- * @version 19.0
- * @since 18.0
  */
 class AuthDTOTest {
 

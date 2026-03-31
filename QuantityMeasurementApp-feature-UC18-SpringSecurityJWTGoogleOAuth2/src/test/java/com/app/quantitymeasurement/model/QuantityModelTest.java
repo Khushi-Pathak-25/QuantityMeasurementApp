@@ -19,9 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * - getValue() and getUnit() return the stored fields
  * - toString() produces a readable representation
  * - Works correctly across all measurement categories
- * 
- * @author Abhishek Puri Goswami
- * @version 17.0
  */
 class QuantityModelTest {
 

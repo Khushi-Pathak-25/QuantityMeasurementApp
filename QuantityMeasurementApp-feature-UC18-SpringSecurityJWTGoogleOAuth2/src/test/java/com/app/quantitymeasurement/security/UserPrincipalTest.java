@@ -21,9 +21,6 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * <p>Covers the LOCAL, GOOGLE, and GITHUB authentication paths.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 class UserPrincipalTest {
 
