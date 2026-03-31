@@ -18,9 +18,6 @@ import java.util.List;
  * <p>History and count methods allow callers to query persisted operation records
  * without going directly to the repository.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public interface IQuantityMeasurementService {
 

@@ -13,9 +13,6 @@ package com.app.quantitymeasurement.unit;
  *
  * <p>Implementations: {@code LengthUnit}, {@code WeightUnit}, {@code VolumeUnit}.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public interface SupportsArithmetic {
 }

@@ -29,9 +29,6 @@ import java.util.List;
  *   <li>Applied to paths    — {@code /**} (all endpoints)</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 19.0
- * @since 19.0
  */
 @Configuration
 public class CorsConfig {

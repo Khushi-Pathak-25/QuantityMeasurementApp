@@ -15,8 +15,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * allowing {@code @Async} methods in {@code EmailService} to run in a
  * background thread pool so email sending never blocks the HTTP response.
  *
- * @author UC19
- * @version 19.0
  */
 @SpringBootApplication
 @EnableAsync

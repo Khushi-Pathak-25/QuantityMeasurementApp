@@ -7,10 +7,6 @@ package com.app.quantitymeasurement.enums;
  *
  * Using this enum in DTOs and service methods provides compile-time type safety and
  * prevents invalid operation strings from entering the processing pipeline.
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 public enum OperationType {
 

@@ -34,9 +34,6 @@ import lombok.NoArgsConstructor;
  * {@code application.properties}. After expiry, the client must re-authenticate
  * to obtain a new token (refresh tokens are outside the scope of UC-18).</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Data
 @Builder

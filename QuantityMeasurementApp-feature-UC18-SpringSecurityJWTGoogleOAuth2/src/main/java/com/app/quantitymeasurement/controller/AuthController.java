@@ -38,8 +38,6 @@ import org.springframework.web.bind.annotation.*;
  *  PUT   /api/v1/auth/forgotPassword/{email}   — reset password (not logged in)
  *  PUT   /api/v1/auth/resetPassword/{email}    — reset password (logged in)
  *
- * @author UC19
- * @version 19.0
  */
 @Slf4j
 @Validated

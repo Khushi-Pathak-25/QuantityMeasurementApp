@@ -57,9 +57,6 @@ import lombok.extern.slf4j.Slf4j;
  * In UC-18, roles are also re-read from the database, not from the token claims,
  * so a role change takes effect on the next request.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Component

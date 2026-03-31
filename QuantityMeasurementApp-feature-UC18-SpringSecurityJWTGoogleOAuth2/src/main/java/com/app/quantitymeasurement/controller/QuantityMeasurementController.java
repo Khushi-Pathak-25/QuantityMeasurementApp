@@ -48,10 +48,6 @@ import java.util.List;
  * All POST endpoints accept a {@link QuantityInputDTO} request body. Bean Validation
  * (@Valid) is applied before the service is called; validation failures are handled
  * centrally by {@code GlobalExceptionHandler}.
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @Slf4j
 @RestController

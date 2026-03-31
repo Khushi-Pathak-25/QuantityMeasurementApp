@@ -25,9 +25,6 @@ import com.app.quantitymeasurement.unit.SupportsArithmetic;
  *
  * @param <U> unit type, which must implement {@link IMeasurable}
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public final class Quantity<U extends IMeasurable> {
 

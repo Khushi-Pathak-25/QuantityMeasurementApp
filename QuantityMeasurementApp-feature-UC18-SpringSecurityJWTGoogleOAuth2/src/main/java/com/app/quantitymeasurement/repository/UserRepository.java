@@ -31,9 +31,6 @@ import java.util.Optional;
  * <p>All method names follow Spring Data's query-derivation naming convention,
  * so no explicit JPQL / SQL is required.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

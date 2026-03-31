@@ -20,9 +20,6 @@ package com.app.quantitymeasurement.unit;
  *   <tr><td>CENTIMETERS</td><td>1 / 2.54 ≈ 0.393701</td></tr>
  * </table>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public enum LengthUnit implements IMeasurable, SupportsArithmetic {
 

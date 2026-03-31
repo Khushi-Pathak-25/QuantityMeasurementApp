@@ -30,9 +30,6 @@ package com.app.quantitymeasurement.enums;
  *       {@code providerId} column holds the GitHub numeric user ID.</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 public enum AuthProvider {
 

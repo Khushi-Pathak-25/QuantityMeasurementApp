@@ -53,9 +53,6 @@ import java.util.Map;
  * }
  * </pre>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Component

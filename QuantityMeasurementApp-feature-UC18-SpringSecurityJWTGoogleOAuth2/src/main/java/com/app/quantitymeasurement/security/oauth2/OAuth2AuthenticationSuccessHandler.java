@@ -53,9 +53,6 @@ import lombok.extern.slf4j.Slf4j;
  * <p>Extends {@link SimpleUrlAuthenticationSuccessHandler} to inherit the default
  * redirect logic and override only the parts specific to JWT issuance.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Component

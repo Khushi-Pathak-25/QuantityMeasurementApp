@@ -32,10 +32,6 @@ import lombok.NoArgsConstructor;
  *
  * <p>{@code @Valid} on each nested DTO ensures their own Bean Validation constraints
  * are evaluated before the controller delegates to the service.</p>
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @Data
 @NoArgsConstructor

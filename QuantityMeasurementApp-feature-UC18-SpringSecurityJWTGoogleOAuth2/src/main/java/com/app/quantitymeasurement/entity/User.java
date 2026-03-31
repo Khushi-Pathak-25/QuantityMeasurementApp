@@ -55,9 +55,6 @@ import java.time.LocalDateTime;
  * construction API. {@code @NoArgsConstructor} / {@code @AllArgsConstructor}
  * are required by both JPA (reflection-based instantiation) and the builder.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Entity
 @Table(

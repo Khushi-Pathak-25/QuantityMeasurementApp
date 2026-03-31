@@ -21,9 +21,6 @@ import java.util.function.Function;
  *
  * <p><b>Base unit:</b> CELSIUS.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public enum TemperatureUnit implements IMeasurable {
 

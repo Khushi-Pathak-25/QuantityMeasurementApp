@@ -75,9 +75,6 @@ import lombok.extern.slf4j.Slf4j;
  * a meaningful error instead of a silent merge.</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Service

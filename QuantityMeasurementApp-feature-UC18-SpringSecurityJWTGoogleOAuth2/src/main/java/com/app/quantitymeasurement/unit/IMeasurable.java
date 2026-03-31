@@ -17,9 +17,6 @@ package com.app.quantitymeasurement.unit;
  *       {@link #validateOperationSupport(String)} (default methods).</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public interface IMeasurable {
 

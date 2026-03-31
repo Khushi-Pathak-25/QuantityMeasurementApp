@@ -17,9 +17,6 @@ import com.app.quantitymeasurement.unit.IMeasurable;
  *
  * @param <U> the unit type, which must implement {@link IMeasurable}
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public class QuantityModel<U extends IMeasurable> {
 

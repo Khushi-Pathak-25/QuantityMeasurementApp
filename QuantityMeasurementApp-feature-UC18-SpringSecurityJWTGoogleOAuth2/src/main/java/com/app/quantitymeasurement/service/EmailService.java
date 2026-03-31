@@ -20,8 +20,6 @@ import org.springframework.stereotype.Service;
  * via the {@code spring.mail.*} namespace. In production, inject them as
  * environment variables rather than hardcoding them.</p>
  *
- * @author UC19
- * @version 19.0
  */
 @Slf4j
 @Service

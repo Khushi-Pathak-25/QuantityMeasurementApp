@@ -47,9 +47,6 @@ import java.util.stream.Collectors;
  * }
  * </pre>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @Slf4j
 @ControllerAdvice

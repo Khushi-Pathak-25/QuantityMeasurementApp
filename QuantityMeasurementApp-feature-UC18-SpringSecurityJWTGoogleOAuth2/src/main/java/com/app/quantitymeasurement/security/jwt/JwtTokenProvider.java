@@ -50,9 +50,6 @@ import lombok.extern.slf4j.Slf4j;
  * <p><b>Thread safety:</b> this component is a Spring singleton. The
  * {@link SecretKey} object is immutable and safe to share across threads.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Component

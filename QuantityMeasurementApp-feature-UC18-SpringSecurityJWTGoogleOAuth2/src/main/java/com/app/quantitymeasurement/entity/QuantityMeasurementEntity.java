@@ -37,9 +37,6 @@ import java.time.LocalDateTime;
  * <p>The {@code boolean error} field is mapped to the column {@code is_error}
  * to avoid any reserved-word conflicts in the underlying database.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 @Entity
 @Table(name = "quantity_measurement")

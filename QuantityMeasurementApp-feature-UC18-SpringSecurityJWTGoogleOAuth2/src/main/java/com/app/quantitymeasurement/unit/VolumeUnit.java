@@ -17,10 +17,6 @@ package com.app.quantitymeasurement.unit;
  *   <tr><td>MILLILITRE</td><td>0.001</td></tr>
  *   <tr><td>GALLON</td><td>3.785412</td></tr>
  * </table>
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public enum VolumeUnit implements IMeasurable, SupportsArithmetic {
 

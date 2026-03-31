@@ -12,9 +12,6 @@ import lombok.NoArgsConstructor;
  * Request body for PUT /api/v1/auth/forgotPassword/{email}.
  * The user provides the new password they want to set.
  * No current-password verification is performed here (the user forgot it).
- *
- * @author UC19
- * @version 19.0
  */
 @Data
 @NoArgsConstructor

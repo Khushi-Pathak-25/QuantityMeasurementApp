@@ -34,8 +34,6 @@ import org.springframework.web.server.ResponseStatusException;
  * <p>The controller delegates all business logic here, keeping itself
  * thin — it only handles HTTP concerns (request mapping, status codes).</p>
  *
- * @author UC19
- * @version 19.0
  */
 @Slf4j
 @Service

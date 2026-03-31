@@ -16,8 +16,6 @@ import lombok.NoArgsConstructor;
  * { "message": "Password has been changed successfully!" }
  * </pre>
  *
- * @author UC19
- * @version 19.0
  */
 @Data
 @NoArgsConstructor

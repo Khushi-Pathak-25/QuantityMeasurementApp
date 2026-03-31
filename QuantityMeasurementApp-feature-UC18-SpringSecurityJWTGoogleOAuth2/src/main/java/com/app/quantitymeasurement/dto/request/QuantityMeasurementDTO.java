@@ -34,10 +34,6 @@ import java.util.stream.Collectors;
  *   <li>{@link #fromEntityList(List)} — list of entities → list of DTOs.</li>
  *   <li>{@link #toEntityList(List)} — list of DTOs → list of entities.</li>
  * </ul>
- *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @Data
 @Builder

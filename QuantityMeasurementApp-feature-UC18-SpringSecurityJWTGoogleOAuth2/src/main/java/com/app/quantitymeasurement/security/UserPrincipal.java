@@ -44,9 +44,6 @@ import java.util.Map;
  * <p>All {@link UserDetails} lock/expiry flags return {@code true} (account is valid);
  * extend this class if account suspension or expiry is required in a future UC.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 public class UserPrincipal implements UserDetails, OAuth2User {
 

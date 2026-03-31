@@ -36,9 +36,6 @@ import java.nio.charset.StandardCharsets;
  * <p>Extends {@link SimpleUrlAuthenticationFailureHandler} to reuse its redirect
  * strategy and override only the handler method.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Slf4j
 @Component

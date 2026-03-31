@@ -28,9 +28,6 @@ import java.util.List;
  *   <li>{@link #findByErrorTrue}              — all error records.</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 17.0
  */
 @Repository
 public interface QuantityMeasurementRepository

@@ -18,9 +18,6 @@ package com.app.quantitymeasurement.unit;
  *   <tr><td>POUND</td><td>0.453592</td></tr>
  * </table>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public enum WeightUnit implements IMeasurable, SupportsArithmetic {
 

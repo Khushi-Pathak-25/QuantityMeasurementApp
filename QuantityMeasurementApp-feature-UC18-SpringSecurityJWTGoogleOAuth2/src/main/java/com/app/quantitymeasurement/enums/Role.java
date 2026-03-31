@@ -21,9 +21,6 @@ package com.app.quantitymeasurement.enums;
  *       operation records across all users.</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 public enum Role {
 

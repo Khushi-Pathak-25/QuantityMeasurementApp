@@ -18,9 +18,6 @@ package com.app.quantitymeasurement.exception;
  *   <li>Division by zero.</li>
  * </ul>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 public class QuantityMeasurementException extends RuntimeException {
 

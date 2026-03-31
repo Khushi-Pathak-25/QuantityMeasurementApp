@@ -30,9 +30,6 @@ import lombok.NoArgsConstructor;
  * and {@code hashCode}. {@code @NoArgsConstructor} provides the no-arg constructor
  * required by Jackson for JSON deserialisation.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 @Data
 @NoArgsConstructor

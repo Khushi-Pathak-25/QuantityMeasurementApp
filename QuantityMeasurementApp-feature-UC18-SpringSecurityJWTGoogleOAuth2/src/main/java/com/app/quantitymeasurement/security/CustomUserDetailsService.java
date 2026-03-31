@@ -34,9 +34,6 @@ import com.app.quantitymeasurement.security.jwt.JwtAuthenticationFilter;
  * and that the query is executed in a read-only transaction, allowing the
  * connection pool to route it to a read replica if one is configured.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Service
 public class CustomUserDetailsService implements UserDetailsService {

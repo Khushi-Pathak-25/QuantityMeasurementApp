@@ -37,9 +37,6 @@ import com.app.quantitymeasurement.unit.IMeasurable;
  * or subtracted (adding 20°C to 10°C does not produce 30°C in a physical sense), so
  * these operations are explicitly rejected with {@link UnsupportedOperationException}.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 17.0
- * @since 1.0
  */
 @Slf4j
 @Service

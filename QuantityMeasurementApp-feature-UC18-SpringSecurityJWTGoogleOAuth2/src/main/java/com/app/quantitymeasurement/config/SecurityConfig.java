@@ -58,9 +58,6 @@ import org.springframework.web.cors.CorsConfigurationSource;
  *
  * <p><b>CSRF:</b> disabled — stateless JWT APIs are not vulnerable to CSRF.</p>
  *
- * @author Abhishek Puri Goswami
- * @version 18.0
- * @since 18.0
  */
 @Configuration
 @EnableWebSecurity

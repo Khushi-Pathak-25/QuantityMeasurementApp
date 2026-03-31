@@ -43,10 +43,6 @@ import lombok.NoArgsConstructor;
  *   "name":     "Jane Doe"
  * }
  * </pre>
- *
- * @author UC19
- * @version 19.0
- * @since 18.0
  */
 @Data
 @NoArgsConstructor
